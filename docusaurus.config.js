@@ -32,6 +32,17 @@ const config = {
     locales: ['en'],
   },
 
+  headTags: [
+    {
+      tagName: 'script',
+      attributes: {
+		defer: "defer",
+		src: 'https://cdn.usefathom.com/script.js',
+		"data-site": "KLGYKNGE",
+      },
+    },
+  ],
+
   presets: [
     [
       'classic',

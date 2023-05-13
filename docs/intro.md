@@ -6,7 +6,7 @@ slug: /
 # Tangent
 
 Tangent is a new starter theme (currently in development) for WordPress.
-[tangentwp.com](https://tangentwp.com)
+[withtangent.com](https://withtangent.com)
 
 ## Theme Setup
 

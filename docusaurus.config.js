@@ -39,6 +39,7 @@ const config = {
 				defer: "defer",
 				src: "https://cdn.usefathom.com/script.js",
 				"data-site": "KLGYKNGE",
+				spa: "auto",
 			},
 		},
 	],

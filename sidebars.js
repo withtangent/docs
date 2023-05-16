@@ -69,7 +69,7 @@ const sidebars = {
         keywords: ['blocks'],
         image: '/img/logo.svg',
       },
-      items: ['blocks/wp-scripts', 'blocks/blocks', 'blocks/block-template-parts'],
+      items: ['blocks/wp-scripts', 'blocks/custom-blocks', 'blocks/block-template-parts'],
     },
     {
       type: 'category',

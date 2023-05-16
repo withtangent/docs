@@ -83,6 +83,8 @@ const config = {
 						position: "left",
 						label: "Docs",
 					},
+					{to: 'guides', label: 'Guides', position: 'left'},
+					{to: 'packages', label: 'Packages', position: 'left'},
 					{
 						href: "https://github.com/withtangent/tangent",
 						label: "GitHub",

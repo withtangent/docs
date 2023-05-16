@@ -30,7 +30,7 @@ const sidebars = {
         keywords: ['getting-started'],
         image: '/img/logo.svg',
       },
-      items: ['getting-started/installation', 'getting-started/design-tokens'],
+      items: ['getting-started/installation', 'getting-started/build-process', 'getting-started/hybrid', 'getting-started/design-tokens', 'getting-started/navigation-menu', 'getting-started/wpcs'],
     },
     {
       type: 'category',
@@ -38,7 +38,7 @@ const sidebars = {
       link: {
         type: 'generated-index',
         title: 'Theme.json',
-        description: 'Get started with tangent',
+        description: 'Tangent uses `.jsonc` partials to store all of the theme\'s design settings. These smaller partials are automatically compiled into a `theme.json` file for your theme.',
         slug: '/theme-json',
         keywords: ['theme-json'],
         image: '/img/logo.svg',
@@ -51,7 +51,7 @@ const sidebars = {
       link: {
         type: 'generated-index',
         title: 'SCSS',
-        description: 'Get started with tangent',
+        description: 'Tangent does enqueue stylesheets for the frontend and the block editor, However, Tangent\'s superpowers include the ability to pull props _directly from your theme.json_ as well as generate _block-specific CSS files_ and enqueue them to their specific blocks.',
         slug: '/scss',
         keywords: ['scss'],
         image: '/img/logo.svg',
@@ -69,20 +69,7 @@ const sidebars = {
         keywords: ['blocks'],
         image: '/img/logo.svg',
       },
-      items: ['blocks/wp-scripts'],
-    },
-    {
-      type: 'category',
-      label: 'Packages',
-      link: {
-        type: 'generated-index',
-        title: 'Packages',
-        description: 'Get started with tangent',
-        slug: '/packages',
-        keywords: ['packages'],
-        image: '/img/logo.svg',
-      },
-      items: ['packages/json-dir-to-object-loader', 'packages/json-to-scss-loader'],
+      items: ['blocks/wp-scripts', 'blocks/blocks', 'blocks/block-template-parts'],
     },
     {
       type: 'category',
@@ -96,6 +83,19 @@ const sidebars = {
         image: '/img/logo.svg',
       },
       items: ['guides/adding-a-block'],
+    },
+    {
+      type: 'category',
+      label: 'Packages',
+      link: {
+        type: 'generated-index',
+        title: 'Packages',
+        description: 'Get started with tangent',
+        slug: '/packages',
+        keywords: ['packages'],
+        image: '/img/logo.svg',
+      },
+      items: ['packages/json-dir-to-object-loader', 'packages/json-to-scss-loader'],
     },
   ],
 };

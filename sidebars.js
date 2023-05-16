@@ -43,7 +43,7 @@ const sidebars = {
         keywords: ['theme-json'],
         image: '/img/logo.svg',
       },
-      items: ['theme-json/partials'],
+      items: ['theme-json/partials', 'theme-json/props'],
     },
     {
       type: 'category',
@@ -56,7 +56,7 @@ const sidebars = {
         keywords: ['scss'],
         image: '/img/logo.svg',
       },
-      items: ['scss/architecture', 'scss/modular'],
+      items: ['scss/architecture', 'scss/modular', 'scss/breakpoints'],
     },
     {
       type: 'category',

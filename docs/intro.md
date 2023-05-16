@@ -1,5 +1,4 @@
 ---
-sidebar_position: 1
 slug: /
 ---
 
@@ -30,9 +29,9 @@ As of now, this repository does _not_ include the final built assets. You'll nee
 
 Tangent does enqueue stylesheets for the frontend and the block editor, However, Tangent's superpowers include the ability to pull props _directly from your theme.json_ as well as generate _block-specific CSS files_ and enqueue them to their specific blocks.
 
-- [Using SCSS in Tangent](https://github.com/understrap/tangent/tree/develop/src/scss#readme)
-- [Using the functions found in the `props.scss` file](https://github.com/understrap/tangent/blob/develop/src/scss/abstracts/props.md)
-- [Breakpoints in Tangent](https://github.com/understrap/tangent/blob/develop/src/scss/abstracts/breakpoints.md)
+- [Using SCSS in Tangent](https://github.com/withtangent/tangent/tree/develop/src/scss#readme)
+- [Using the functions found in the `props.scss` file](https://github.com/withtangent/tangent/blob/develop/src/scss/abstracts/props.md)
+- [Breakpoints in Tangent](https://github.com/withtangent/tangent/blob/develop/src/scss/abstracts/breakpoints.md)
 
 ### JavaScript
 
@@ -42,7 +41,7 @@ TK
 
 Tangent uses `.jsonc` partials to store all of the theme's design settings. These smaller partials are automatically compiled into a `theme.json` file for your theme.
 
-Read: [How to create a theme.json from partials](https://github.com/understrap/tangent/tree/develop/src/theme-json#readme)
+Read: [How to create a theme.json from partials](https://github.com/withtangent/tangent/tree/develop/src/theme-json#readme)
 
 ## Block Template Parts
 

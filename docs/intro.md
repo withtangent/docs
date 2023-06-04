@@ -4,8 +4,19 @@ slug: /
 
 # Tangent
 
-Tangent is a new starter theme (currently in development) for WordPress.
+Tangent is a new starter theme (currently in beta) for WordPress.
 [withtangent.com](https://withtangent.com)
+
+## Built for the Block Editor
+
+Tang
+
+## Built for Modern WordPress
+
+
+
+## Built for Developers
+
 
 ## License
 

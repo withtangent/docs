@@ -7,23 +7,14 @@ slug: /
 Tangent is a new starter theme (currently in beta) for WordPress.
 [withtangent.com](https://withtangent.com)
 
-## Built for the Block Editor
+## A Modern Hybrid Theme
 
-Tang
+PHP when you want it, Block Editor everywhere else.
 
-## Built for Modern WordPress
+## Design Token Approach to Theme.JSON and SCSS
 
+Define once, use it everywhere.
 
+## JavaScript for Blocks and the Block Editor
 
-## Built for Developers
-
-
-## License
-
-Tangent is licensed under the GNU General Public License v3.0 or later.
-
-## Credits
-
-- Underscores: https://github.com/Automattic/_s
-- Micromodal: https://micromodal.vercel.app
-- WordPress Scripts: https://developer.wordpress.org/block-editor/packages/packages-scripts/
+Modern JavaScript for modern blocks.

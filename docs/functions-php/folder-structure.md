@@ -1,9 +1,3 @@
-# A Hybrid Theme Approach
-
-Tangent is a "hybrid" theme, meaning that it embraces the block editor and still supports much of the classic PHP-based templating functionality that is sometimes needed. It is built on top of [Underscores](https://underscores.me) and includes a number of features that make it easy to build custom blocks and block patterns, as well as build your styling starting from `theme.json` itself.
-
-
-## Folder Structure
 
 At first look, the folder structure should be relatively similar to a classic WordPress theme. A `src` folder serves as the entrypoint for the theme's source files, and there are a number of folders for template parts and other theme files. Finally, there is an `inc` folder for theme includes and functions.
 

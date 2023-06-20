@@ -1,7 +1,3 @@
----
-slug: /
----
-
 # Tangent
 
 Tangent is a new starter theme (currently in beta) for WordPress.

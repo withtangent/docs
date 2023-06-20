@@ -4,7 +4,10 @@ import HomepageFeatures from "../components/HomepageFeatures";
 
 export default function Index() {
   return (
-    <Layout title="Hello" description="Hello React Page">
+    <Layout
+      title="Tangent"
+      description="a future-oriented WordPress theme scaffold"
+    >
       <main>
         <header className="hero">
           <div className="container">

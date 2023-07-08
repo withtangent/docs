@@ -1,3 +1,4 @@
+# Folder Structure 
 
 At first look, the folder structure should be relatively similar to a classic WordPress theme. A `src` folder serves as the entrypoint for the theme's source files, and there are a number of folders for template parts and other theme files. Finally, there is an `inc` folder for theme includes and functions.
 

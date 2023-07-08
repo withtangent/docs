@@ -49,8 +49,9 @@ const sidebars = {
       },
       items: [
         "functions-php/folder-structure",
-        "functions-php/navigation-menu",
         "functions-php/helpers",
+        "functions-php/header",
+        "functions-php/footer",
       ],
     },
     {

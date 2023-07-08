@@ -52,6 +52,7 @@ const sidebars = {
         "functions-php/helpers",
         "functions-php/header",
         "functions-php/footer",
+        "functions-php/template-parts",
       ],
     },
     {

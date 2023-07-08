@@ -71,3 +71,7 @@ Read more in the [Footer](/function-php/footer) section.
 In order to ensure that the search form design is consistent across the entire site, we've updated the `searchform.php` template part to load a block template part. Essentially, this replaces the classic search form with a block-based search form, the same one used in the `Search` block in the block editor.
 
 - `parts/search-form.html`
+
+### Adding Block Template Parts
+
+New block template parts can be added to the `/parts` folder and should also be defined as part of `theme.json` (specifically the name and what `area` it's associated with). Because Tangent uses a [custom theme.json compiler](/theme-json-scss), you'll include your template parts in `src/theme-json/templateParts.jsonc`.

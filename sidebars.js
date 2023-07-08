@@ -93,7 +93,6 @@ const sidebars = {
         "javascript/wp-scripts",
         "javascript/editor-js",
         "javascript/custom-blocks",
-        "javascript/block-template-parts",
       ],
     },
     {

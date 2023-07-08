@@ -31,8 +31,8 @@ Most of the theme setup is handled in the `inc/setup.php` file. This includes:
 - Adding your site logo to the WordPress login screen
 
 From there, we include a few other files from the `inc` folder, which include:
-- Enqueing scripts and styles
-- Enquing custom blocks and block stylesheets
+- Enqueuing scripts and styles
+- Enqueuing custom blocks and block stylesheets
 - A custom navwalker for accessible menus
 - Any custom theme options and helpers
 

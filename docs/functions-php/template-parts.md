@@ -64,7 +64,7 @@ Read more in the [Header and Menu](/functions-php/header) section.
 
 - `parts/footer-credit.html`
 
-Read more in the [Footer](/function-php/footer) section.
+Read more in the [Footer](/functions-php/footer) section.
 
 ### Search
 

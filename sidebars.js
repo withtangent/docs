@@ -42,7 +42,7 @@ const sidebars = {
         type: "generated-index",
         title: "Hybrid Themes and PHP",
         description:
-          'Tangent is a "hybrid" theme, meaning that it embraces the block editor and still supports much of the classic PHP-based templating functionality that is sometimes needed. It is built on top of [Underscores](https://underscores.me) and includes a number of features that make it easy to build custom blocks and block patterns, as well as build your styling starting from `theme.json` itself.',
+          'Tangent is a "hybrid" theme, meaning that it embraces the block editor and still supports much of the classic PHP-based templating functionality that is sometimes needed. It is built on top of Underscores and includes a number of features that make it easy to build custom blocks and block patterns, as well as build your styling starting from theme.json itself.',
         slug: "/functions-php",
         keywords: ["theme-json"],
         image: "/img/logo.svg",
@@ -82,12 +82,14 @@ const sidebars = {
       link: {
         type: "generated-index",
         title: "JavaScript and Block Editor",
-        description: "Get started with tangent",
+        description:
+          "Tangent makes it easy to enqueue JavaScript, build custom blocks, or even modify the block editor, all with a bespoke build process reminiscent of WordPress/Scripts.",
         slug: "/javascript",
         keywords: ["blocks"],
         image: "/img/logo.svg",
       },
       items: [
+        "javascript/js-intro",
         "javascript/wp-scripts",
         "javascript/editor-js",
         "javascript/custom-blocks",

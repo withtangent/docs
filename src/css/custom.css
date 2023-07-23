@@ -33,4 +33,11 @@
 
 .hero{
 	background-color: var(--secondary-background);
+	min-height: 50vh;
+	text-align: center;
+}
+
+.homepage-footer{
+	background-color: var(--secondary-background);
+	text-align: center;
 }

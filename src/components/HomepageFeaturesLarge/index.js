@@ -97,7 +97,7 @@ const registerBlockStyles = {
 
 function Feature({ Svg, title, description, link, codeTitle, codeLang, code }) {
   return (
-    <div className={`row padding-vert--xl margin-vert--xl ${styles.row}`}>
+    <div className={`row padding-vert--xl margin-bottom--xl ${styles.row}`}>
       <div className={clsx("col col--6")}>
         <div className="">
           {/* <Svg className={styles.featureSvg} role="img" /> */}

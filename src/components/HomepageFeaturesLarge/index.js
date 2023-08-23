@@ -5,25 +5,7 @@ import CodeBlock from "@theme/CodeBlock";
 
 const FeatureList = [
   {
-    title: "PHP templates meet Block Template Parts",
-    // Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
-    description: (
-      <>
-        With a hybrid theme, you always have access to standard PHP templating
-        when you need it. But with built-in block template parts, you can use
-        the Site Editor wherever you want to: the 404 page, site footer, or
-        anywhere else.
-      </>
-    ),
-    link: "/functions-php",
-    codeTitle: "footer.php",
-    codeLang: "html",
-    code: `<footer id="colophon" class="site-footer">
-	<?php block_template_part( 'footer-credit' ); ?>
-</footer>`,
-  },
-  {
-    title: "Theme.JSON gets manageable with JSONC partials",
+    title: "Make Theme.JSON manageable with JSONC partials",
     // Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
     description: (
       <>
@@ -38,10 +20,28 @@ const FeatureList = [
     codeLang: "json",
     code: `// Typography settings for theme.json (with comments!)
 {
-	"fontFamily": "var(--wp--preset--font-family--manrope)",
-	"fontSize": "var(--wp--preset--font-size--paragraph)",
-	"lineHeight": "1.6"
+  "fontFamily": "var(--wp--preset--font-family--manrope)",
+  "fontSize": "var(--wp--preset--font-size--paragraph)",
+  "lineHeight": "1.6"
 }`,
+  },
+  {
+    title: "PHP templates meet Block Template Parts",
+    // Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
+    description: (
+      <>
+        With a hybrid theme, you always have access to standard PHP templating
+        when you need it. But with built-in block template parts, you can use
+        the Site Editor wherever you want to: the 404 page, site footer, or
+        anywhere else.
+      </>
+    ),
+    link: "/functions-php",
+    codeTitle: "footer.php",
+    codeLang: "php",
+    code: `<footer id="colophon" class="site-footer">
+  <?php block_template_part( 'footer-credit' ); ?>
+</footer>`,
   },
   {
     title: "One build process to rule them all.",
@@ -51,15 +51,16 @@ const FeatureList = [
         Use your <code>theme.json</code> variables in your Sass files. Use your
         breakpoints and mixins in your block files. Write block-specific Sass
         files for core blocks and they'll only be enqeueued when that block is
-        loaded.
+        loaded. Everything is automatically handled by one easy build process.
       </>
     ),
     link: "/theme-json-scss",
     codeTitle: "src/scss/blocks/core/quote.scss",
     codeLang: "scss",
     code: `@use "../../utils";
+
 .wp-block-quote {
-	border: 2px solid utils.ref("preset.color.primary");
+  border: 2px solid utils.ref("preset.color.primary");
 }`,
   },
   {
@@ -80,16 +81,16 @@ const FeatureList = [
     code: `/**
  * Register block styles
  *
- * @type {Object} Add the names of blocks and styles to register here
- * @see https://developer.wordpress.org/block-editor/reference-guides/block-api/block-styles/
+ * @type {Object} Add the names of blocks 
+ *                and styles to register here
  */
 const registerBlockStyles = {
-	"core/cover": [
-		{
-			name: "hero",
-			label: "Hero",
-		},
-	]
+  "core/cover": [
+    {
+      name: "hero",
+      label: "Hero",
+    },
+  ]
 };`,
   },
 ];

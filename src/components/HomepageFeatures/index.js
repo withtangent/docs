@@ -3,22 +3,19 @@ import styles from "./styles.module.css";
 
 const FeatureList = [
   {
-    title: "A Hybrid Theme with PHP and the Block Editor",
+    title: "A Hybrid Theme combining the Block Editor with PHP templates",
     // Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
-    description: <>PHP when you want it, Block Editor everywhere else.</>,
-    link: "/functions-php",
+    description: <>PHP when you need it, the Block Editor everywhere else.</>,
   },
   {
     title: "Design Token Approach to Theme.JSON and SCSS",
     // Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
-    description: <>Define once, use it everywhere.</>,
-    link: "/theme-json-scss",
+    description: <>Define your design tokens once, use them everywhere.</>,
   },
   {
-    title: "JavaScript Scaffolds for Blocks and the Block Editor",
+    title: "JavaScript Scaffolds for Blocks and Block Editor Customizations",
     // Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
-    description: <>Modern JavaScript for modern blocks.</>,
-    link: "/javascript",
+    description: <>A Modern JavaScript build process for block development.</>,
   },
 ];
 
@@ -31,9 +28,6 @@ function Feature({ Svg, title, description, link }) {
       <div className=" padding-horiz--md">
         <h2>{title}</h2>
         <p>{description}</p>
-        <a className="button button--outline button--primary" href={link}>
-          Keep Reading
-        </a>
       </div>
     </div>
   );

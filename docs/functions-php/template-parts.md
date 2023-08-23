@@ -36,7 +36,7 @@ get_template_part(
 
 ## Offcanvas Navigation
 
-The `header.php` uses this template part to build the offcanvas navigation:
+The `header.php` file also uses this template part to build the offcanvas navigation:
 
 - `template-parts/navigation-offcanvas.php`
 

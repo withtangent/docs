@@ -40,14 +40,16 @@ From there, we include a few other files from the `inc` folder, which include:
 
 Classic template parts are in the `template-parts` folder, and custom block template parts are in the `parts` folder. We also include a `patterns` folder for custom block patterns. Classic template parts are used for things like loops and archive pages rendered in PHP, while block template parts are used for custom block templates, such as the theme's footer and 404 page, which can be modified via the block editor.
 
+It is up to each individual project to decide when to use a PHP template versus a block template. The general strategy here is typically that more dynamic or complex content (loops and archives, the header/navigation) still use PHP template files, while more static elements (the footer or the 404 page) can move to using block template parts.
+
+Read more about template parts in the [Template Parts](/functions-php/template-parts) section.
+
 ## The src folder
 
-Most of your frontend assets are handled in the `src` folder. 
+Frontend assets, like JavaScript, CSS, and theme.json are handled in the `src` folder. This will be a brief overview but each topic has its own section later in the documentation. 
 
-Most of the design setup starts in the `src/theme-json` folder. Tangent uses `.jsonc` partials to break `theme.json` into multiple files and folders. Once you've defined all of your design "tokens" in JSON, you can reference them in your Sass files, in the `src/scss` folder. All of your styles are compiled into two global stylesheets, one for the frontend and one for the editor. There's a few additional goodies surrounding the build process for Sass, such as distinct per-block stylesheets, which we'll get into later.
+Most of the design setup starts in the `src/theme-json` folder. Tangent uses `.jsonc` (JSON with Comments) partials to break `theme.json` into multiple files and folders. Once you've defined all of your design "tokens" in JSON, you can reference them in your Sass files, in the `src/scss` folder. All of your styles are compiled into two global stylesheets, one for the frontend and one for the editor. There's a few additional goodies surrounding the build process for Sass, such as distinct per-block stylesheets, which we'll get into later.
 
 The `src/js` folder is your entrypoint for writing JavaScript. The `src/js/index.js` file is the entrypoint for the frontend, and the `src/js/editor.js` file is the entrypoint for the editor. Both of these files are compiled into `js` files in the theme's root directory.
 
-Tangent also supports the build process for handling blocks in the `src/blocks` folder. All blocks are _automatically_ registered with the block editor once they're built. 
-
-Continue on to read about the design token approach in Tangent.
+Tangent also supports the build process for handling blocks in the `src/blocks` folder. All blocks (and their assets) are _automatically_ registered with the block editor once they're built. 

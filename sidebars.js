@@ -24,7 +24,8 @@ const sidebars = {
       link: {
         type: "generated-index",
         title: "Getting Started",
-        description: "Get started with tangent",
+        description:
+          "Get started with tangent by downloading the latest release, running the installation process, and calling the start command.",
         slug: "/getting-started",
         keywords: ["getting-started"],
         image: "/img/logo.svg",
@@ -62,7 +63,7 @@ const sidebars = {
         type: "generated-index",
         title: "Theme.json and SCSS",
         description:
-          "Tangent uses `.jsonc` partials to store all of the theme's design settings. These smaller partials are automatically compiled into a `theme.json` file for your theme. Tangent does enqueue stylesheets for the frontend and the block editor, However, Tangent's superpowers include the ability to pull props _directly from your theme.json_ as well as generate _block-specific CSS files_ and enqueue them to their specific blocks.",
+          "Tangent breaks theme.json into smaller partials to make it easier to set up your theme's design settings. These smaller files are automatically compiled (and can even support comments!). Tangent does enqueue stylesheets for the frontend and the block editor, however, Tangent's superpowers include the ability to pull props directly from your theme.json as well as generate block-specific CSS files and enqueue them to their specific blocks.",
         slug: "/theme-json-scss",
         keywords: ["theme-json"],
         image: "/img/logo.svg",

@@ -23,5 +23,3 @@ Once you have downloaded Tangent, you will need to do a _case-sensitive_ search 
 npm install
 npm run start
 ```
-
-Read through the [Build Process](/docs/getting-started/build-process.md) guide for more information on how the build process for Tangent works.

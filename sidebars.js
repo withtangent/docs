@@ -72,6 +72,7 @@ const sidebars = {
         "theme-json-scss/design-tokens",
         "theme-json-scss/partials",
         "theme-json-scss/architecture",
+        "theme-json-scss/utils",
         "theme-json-scss/props",
         "theme-json-scss/modular",
         "theme-json-scss/breakpoints",

@@ -1,0 +1,29 @@
+.features {
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+}
+.row{
+	align-items: center;
+}
+
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
+}
+
+.description{
+	font-size: 1.25rem;
+}
+
+@media screen and (min-width:997px){	
+	.row:nth-of-type(odd){
+		border-radius: var(--ifm-button-border-radius);
+		background-color: var(--secondary-background);
+	}
+	.row:nth-of-type(even){
+		flex-direction: row-reverse;
+	}
+}

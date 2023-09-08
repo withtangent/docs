@@ -1,7 +1,16 @@
 # Build Process
 
-As of now, this repository does _not_ include the final built assets. You'll need to build them once you've cloned the repo. (You may also want to exclude them from your `.gitignore` file, depending on your workflow.)
+Tangent uses a webpack build process to compile the theme's CSS and JavaScript files. The build process also compiles the theme's `theme.json` file from partials. While the build process is not directly using `wordpress-scripts`, it is closely modeled on it and includes many of the same block-specific features.
 
-`npm run build` will build the theme's CSS, JavaScript files, and theme.json.
+The build process covers all of the following:
 
-`npm run watch` will watch for changes to the theme's SCSS, JavaScript files, and theme.json partials and rebuild them automatically.
+- SCSS
+- JS
+- Blocks
+- Theme.json
+
+`npm run start` will watch for changes to the theme's SCSS, JavaScript files, and theme.json partials and rebuild them automatically.
+
+`npm run dev:compile` will build the theme's CSS, JavaScript files, and theme.json for development
+
+`npm run build` will build the theme's CSS, JavaScript files, and theme.json for production, removing things like sourcemaps and console logs.

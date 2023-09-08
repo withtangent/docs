@@ -1,48 +1,32 @@
-import React from 'react';
-import clsx from 'clsx';
-import styles from './styles.module.css';
+import React from "react";
+import styles from "./styles.module.css";
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
+    title: "A Hybrid Theme combining the Block Editor with PHP templates",
+    // Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
+    description: <>PHP when you need it, the Block Editor everywhere else.</>,
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
+    title: "Design Token Approach to Theme.JSON and SCSS",
+    // Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
+    description: <>Define your design tokens once, use them everywhere.</>,
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
+    title: "JavaScript Scaffolds for Blocks and Block Editor Customizations",
+    // Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
+    description: <>A Modern JavaScript build process for block development.</>,
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description, link }) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+    <div className="padding-vert--lg">
+      <div className="">
+        {/* <Svg className={styles.featureSvg} role="img" /> */}
       </div>
-      <div className="text--center padding-horiz--md">
-        <h3>{title}</h3>
+      <div className=" padding-horiz--md">
+        <h2>{title}</h2>
         <p>{description}</p>
       </div>
     </div>
@@ -55,7 +39,9 @@ export default function HomepageFeatures() {
       <div className="container">
         <div className="row">
           {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
+            <div className="col col--4" key={idx}>
+              <Feature {...props} />
+            </div>
           ))}
         </div>
       </div>

@@ -1,3 +1,0 @@
-# Block Template Parts
-
-Block Template Parts are enabled in Tangent, allowing you to create and store HTML template parts in the `parts` folder. This allows users to edit the template parts in the WordPress Dashboard from WordPress > Template Parts. You can control the registration of the template part (specifically the name and what `area` it's associated with) from `theme.json`. See `src/theme-json/templateParts.jsonc` for more information.

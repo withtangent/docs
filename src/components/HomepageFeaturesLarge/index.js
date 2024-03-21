@@ -5,45 +5,6 @@ import CodeBlock from "@theme/CodeBlock";
 
 const FeatureList = [
   {
-    title: "Make Theme.JSON manageable with JSONC partials",
-    // Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
-    description: (
-      <>
-        We've broken <code>theme.json</code> into smaller, more manageable{" "}
-        <code>.jsonc</code> files. Not only does this mean it's easier to edit
-        and update settings, but you can also leave comments and comment
-        attributes out while you're working.
-      </>
-    ),
-    link: "/theme-json-scss",
-    codeTitle: "/src/theme-json/styles/typography.jsonc",
-    codeLang: "json",
-    code: `// Typography settings for theme.json (with comments!)
-{
-  "fontFamily": "var(--wp--preset--font-family--manrope)",
-  "fontSize": "var(--wp--preset--font-size--paragraph)",
-  "lineHeight": "1.6"
-}`,
-  },
-  {
-    title: "PHP templates meet Block Template Parts",
-    // Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
-    description: (
-      <>
-        With a hybrid theme, you always have access to standard PHP templating
-        when you need it. But with built-in block template parts, you can use
-        the Site Editor wherever you want to: the 404 page, site footer, or
-        anywhere else.
-      </>
-    ),
-    link: "/functions-php",
-    codeTitle: "footer.php",
-    codeLang: "php",
-    code: `<footer id="colophon" class="site-footer">
-  <?php block_template_part( 'footer-credit' ); ?>
-</footer>`,
-  },
-  {
     title: "One build process to rule them all.",
     // Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
     description: (
@@ -54,13 +15,13 @@ const FeatureList = [
         loaded. Everything is automatically handled by one easy build process.
       </>
     ),
-    link: "/theme-json-scss",
+    link: "/scss",
     codeTitle: "src/scss/blocks/core/quote.scss",
     codeLang: "scss",
     code: `@use "../../utils";
 
 .wp-block-quote {
-  border: 2px solid utils.ref("preset.color.primary");
+  border: var(--wp--custom--border--width) solid var(--wp--custom--border--color);
 }`,
   },
   {

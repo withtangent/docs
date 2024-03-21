@@ -62,7 +62,7 @@ Once you've registered a block style, you'll be responsible for adding the relev
 }
 ```
 
-[Learn more about how Tangent handles block styles.](/theme-json-scss/architecture)
+[Learn more about how Tangent handles block styles.](/scss/architecture)
 
 
 ### Remove block variations

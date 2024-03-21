@@ -16,8 +16,8 @@ export default function Index() {
               <em>Introducing</em> Tangent
             </h1>
             <p className="hero__subtitle">
-              a <strong>future-oriented</strong> WordPress theme scaffold for
-              building modern bespoke WordPress websites.
+              a <strong>future-oriented</strong> WordPress block theme scaffold
+              for building modern bespoke WordPress websites.
             </p>
             <div>
               <a
@@ -49,7 +49,7 @@ export default function Index() {
         <HomepageFeaturesLarge />
         <div className="homepage-footer padding-vert--md">
           <p className="hero__subtitle">
-            Tangent is a modern hybrid theme framework for WordPress, built for
+            Tangent is a modern block theme framework for WordPress, built for
             developers.
           </p>
           <a

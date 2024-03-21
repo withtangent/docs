@@ -3,12 +3,12 @@ import styles from "./styles.module.css";
 
 const FeatureList = [
   {
-    title: "A Hybrid Theme combining the Block Editor with PHP templates",
+    title: "A Block Theme built with best practices in mind",
     // Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
-    description: <>PHP when you need it, the Block Editor everywhere else.</>,
+    description: <>A modern approach to WordPress theme development.</>,
   },
   {
-    title: "Design Token Approach to Theme.JSON and SCSS",
+    title: "Design Token Approach CSS / SCSS",
     // Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
     description: <>Define your design tokens once, use them everywhere.</>,
   },
